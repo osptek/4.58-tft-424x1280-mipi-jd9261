@@ -44,8 +44,7 @@ Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
 ## YDP458B002-V13
 
-**Notes:** Module.
-
+**Notes:** With touch (JD9261).
 ---
 
 ## How to Switch Branches
