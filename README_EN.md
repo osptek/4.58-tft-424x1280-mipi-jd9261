@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 4.58″ TFT 424×1280 (JD9261 · MIPI)</h1>
 
-<p align="center"><b>Bar TFT module · MIPI · JD9261 · capacitive touch</b></p>
+<p align="center"><b>TFT module · MIPI · JD9261 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 4.58 inch" src="https://img.shields.io/badge/Size-4.58%22-3498DB?style=flat-square" />
@@ -15,79 +15,57 @@
 
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP458B002-V13](#ydp458b002-v13)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **4.58″ 424×1280 TFT** is a **MIPI** color bar display module with display and touch driven by **JD9261** (capacitive touch over I2C). Suited to bar HMIs, side information strips, and narrow interactive panels.
+This repository holds materials for the **4.58″ 424×1280 TFT (MIPI · JD9261)** module family.
 
-Spec ID (repository name): `4.58-tft-424x1280-mipi-jd9261`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP458B002-V13**. Electrical and mechanical details follow [`docs/YDP458B002-V13_外形图.pdf`](./docs/YDP458B002-V13_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) and the driver IC datasheet.
+Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 4.58 inch |
-| Type | TFT (color) |
-| Resolution | 424×1280 |
-| Interface | MIPI |
-| Driver IC | JD9261 |
-| Touch driver | JD9261 |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP458B002-V13 | — | [Details](#ydp458b002-v13) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-P4 · JD9261 MIPI + esp-lvgl-port / LVGL9 | [`examples/P4-IDF_JD9261-MIPI_ESP-LVGL-PORT_V9/`](./examples/P4-IDF_JD9261-MIPI_ESP-LVGL-PORT_V9/) |
+## YDP458B002-V13
 
-## Repository layout
+**Notes:** Module.
 
-```text
-4.58-tft-424x1280-mipi-jd9261/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # outline drawing, datasheet, init sequence, etc.
-└── examples/        # sample projects
-```
+---
 
-## Resources
+## How to Switch Branches
 
-### Product files
+Full product materials are on each **version branch**; `main` is navigation only.
 
-| Resource | Link |
-| ---- | ---- |
-| Outline drawing (YDP458B002-V13) | [`docs/YDP458B002-V13_外形图.pdf`](./docs/YDP458B002-V13_%E5%A4%96%E5%BD%A2%E5%9B%BE.pdf) |
-| Driver IC datasheet (JD9261T) | [`docs/jd9261t数据手册.pdf`](./docs/jd9261t%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C.pdf) |
-| Init sequence (text) | [`docs/HI8565（JD9261T）_Truly_4p58_LV_2L_424x1280_20240729.txt`](./docs/HI8565%EF%BC%88JD9261T%EF%BC%89_Truly_4p58_LV_2L_424x1280_20240729.txt) |
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-### Samples
+---
 
-- [ESP32-P4 JD9261 MIPI + esp-lvgl-port / LVGL9](./examples/P4-IDF_JD9261-MIPI_ESP-LVGL-PORT_V9/)
-
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -95,13 +73,15 @@ Current module version: **YDP458B002-V13**. Electrical and mechanical details fo
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group: **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
-- Feel free to open an Issue in this repository with any questions
+- Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
