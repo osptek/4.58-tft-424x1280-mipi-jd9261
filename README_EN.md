@@ -18,7 +18,6 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP458B002-V13](#ydp458b002-v13)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -28,7 +27,7 @@
 
 This repository holds materials for the **4.58″ 424×1280 TFT (MIPI · JD9261)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
@@ -36,9 +35,9 @@ Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| YDP458B002-V13 | — | [Details](#ydp458b002-v13) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| YDP458B002-V13 | — | [Summary](#ydp458b002-v13) | [Full docs](./versions/YDP458B002-V13/) |
 
 ---
 
@@ -46,14 +45,7 @@ Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
 **Notes:** With touch (JD9261).
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/YDP458B002-V13/](./versions/YDP458B002-V13/)
 
 ---
 
