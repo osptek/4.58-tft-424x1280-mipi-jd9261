@@ -13,6 +13,8 @@
   <img alt="Driver: JD9261" src="https://img.shields.io/badge/Driver-JD9261-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 4.58 寸 424×1280 TFT MIPI 模组（JD9261）宣传图" src="./images/product.png" width="640" /></p>
+
 ## 目录
 
 - [产品简介](#产品简介)

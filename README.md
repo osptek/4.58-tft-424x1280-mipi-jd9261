@@ -37,11 +37,13 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
-| YDP458B002-V13 | — | [简介](#ydp458b002-v13) | [完整资料](./versions/YDP458B002-V13/) |
+| YDP458B002-V13 | <img alt="YDP458B002-V13" src="./versions/YDP458B002-V13/images/product.png" width="120" /> | [简介](#ydp458b002-v13) | [完整资料](./versions/YDP458B002-V13/) |
 
 ---
 
 ## YDP458B002-V13
+
+<p align="center"><img alt="YDP458B002-V13" src="./versions/YDP458B002-V13/images/product.png" width="320" /></p>
 
 **说明：** 带触摸（JD9261）。
 

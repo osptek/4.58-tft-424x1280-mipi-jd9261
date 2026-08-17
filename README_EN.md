@@ -37,11 +37,13 @@ Repo id: `4.58-tft-424x1280-mipi-jd9261`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
-| YDP458B002-V13 | — | [Summary](#ydp458b002-v13) | [Full docs](./versions/YDP458B002-V13/) |
+| YDP458B002-V13 | <img alt="YDP458B002-V13" src="./versions/YDP458B002-V13/images/product.png" width="120" /> | [Summary](#ydp458b002-v13) | [Full docs](./versions/YDP458B002-V13/) |
 
 ---
 
 ## YDP458B002-V13
+
+<p align="center"><img alt="YDP458B002-V13" src="./versions/YDP458B002-V13/images/product.png" width="320" /></p>
 
 **Notes:** With touch (JD9261).
 
